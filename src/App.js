@@ -1,9 +1,11 @@
 import './App.css';
+import ExpenseItem from './components/ExpenseItem';
 
-function App(props) {
+function App() {
   return (
     <div>
-      <h1>My name is {props.name} Raj.</h1>
+      <h2>Let's get started!</h2>
+      <ExpenseItem />
     </div>
   );
 }
